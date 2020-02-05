@@ -124,10 +124,10 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 \titlepage % Print the title page as the first slide
 \end{frame}
 
-\begin{frame}
-\frametitle{Overview} % Table of contents slide, comment this block out to remove it
-\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
-\end{frame}
+%\begin{frame}
+%\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+%\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+%\end{frame}
 
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
@@ -206,21 +206,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 \end{frame}
 
 \begin{frame}{Background \& Data}
-    \begin{wideitemize}
-        \item Local collectors pool animals from smallholder producers (Heifer International Nepal, 2012). 
-        \item Outside of Cooperatives: \vspace{.25cm}
-            \begin{wideitemize}
-                \item A collector would likely have to conduct individual negotiations, sometimes making multiple visits per home (Heifer International Nepal, 2012; Staal et al., 1997).
-                \item Then have to coordinate transportation. Picking up goats from each home or arranging for individuals to meet at a collection point. 
-            \end{wideitemize}
-        \item Through cooperatives: \vspace{.25cm}
-            \begin{wideitemize}
-                \item Collector only needs to negotiate with a single entity and can leave sales coordination to cooperative managers.
-            \end{wideitemize}
-    \end{wideitemize}
-\end{frame}
-
-\begin{frame}{Background \& Data}
 \textbf{Data:} \vspace{.5cm}
     \begin{wideitemize}
         \item 109 female smallholder livestock cooperatives. 
@@ -238,19 +223,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
     \begin{center}
         \includegraphics[width=.9\textwidth]{StudyMap.png}
     \end{center}
-\end{frame}
-
-\begin{frame}
-\begin{columns}[t]
-\column{.5\textwidth}
-\centering
-\includegraphics[width=7.7cm,height=4.2cm]{travel1.jpg}\\
-\includegraphics[width=7.7cm,height=4.2cm]{travel3.jpg}
-\column{.5\textwidth} 
-\centering
-\includegraphics[width=7.7cm,height=4.2cm]{travel2.jpg}\\
-\includegraphics[width=7.7cm,height=4.2cm]{travel4.jpg}
-\end{columns}
 \end{frame}
 
 
@@ -295,7 +267,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
             \begin{wideitemize}
                 \item Not causal estimates
             \end{wideitemize}
-        \item Useful when you cannot randomly assign `treatment' or observe a natural experiment (gender pay gap, racial test score gap, etc.).     
     \end{wideitemize}
 \end{frame}
 
@@ -319,7 +290,7 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 
 \begin{frame}{Essay 1: Investigating the Inclusive-Performance Tradeoff in \\ \hspace{1.7cm} Agricultural Cooperatives}
     \begin{wideitemize}
-        \item Rearranging this equation by adding and subtracting $\beta_{\ell}\overline{X}_{m}$ on both sides gives: \vspace{.25cm}
+        \item Rearranging this equation by adding and subtracting $\beta_{m}\overline{X}_{\ell}$ on both sides gives: \vspace{.25cm}
             \begin{subequations}
                 \begin{align}
                 \overline{Y}&_{\ell} - \overline{Y}_{m} \label{eq:E1_3a} \\
@@ -346,7 +317,7 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
     \begin{wideitemize}
         \item (\ref{eq:E1_3c}) is the unexplained component \vspace{.25cm}
              \begin{wideitemize}
-                \item Difference in what producers in the most inclusive cooperatives actually receive and what they would receive if they had equivalent returns to their characteristics as those in the least inclusive cooperatives.
+                \item Difference in what producers in the least inclusive cooperatives actually receive and what they would receive if they had equivalent returns to their characteristics as those in the most inclusive cooperatives.
             \end{wideitemize}
     \end{wideitemize}    
 \end{frame}
@@ -538,24 +509,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 \end{frame}
 
 \begin{frame}{Essay 2: Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage}
-    \begin{wideitemize}
-        \item Since $\theta^{C}_{i}$ and $\theta^{O}_{i}$ are unobserved, they can be decomposed into the following productivity effects (Lemieux, 1998) \vspace{.5cm}
-    \end{wideitemize}
-    \begin{equation} \label{eq:E2_theta.C}
-        \theta^{C}_{i} = b_{C}(\theta^{C}_{i} - \theta^{O}_{i}) + \zeta_{i}
-    \end{equation}
-    \begin{equation} \label{eq:E2_theta.O}
-        \theta^{O}_{i} = b_{O}(\theta^{C}_{i} - \theta^{O}_{i}) + \zeta_{i}
-    \end{equation}
-    \begin{wideitemize}
-        \item $\zeta_{i}$ is a household’s absolute advantage in agricultural production (Suri, 2011). 
-    \end{wideitemize}
-\end{frame}
-
-\begin{frame}{Essay 2: Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage}
-    \begin{wideitemize}
-        \item Define $\phi \equiv b_C / b_O - 1$ and rewrite equations (\ref{eq:E2_theta.C}) and (\ref{eq:E2_theta.O}) as \vspace{.5cm}
-    \end{wideitemize}
     \begin{equation} \label{eq:E2_theta2.C}
         \theta^{C}_{i} = (\phi + 1)\theta_{i} + \zeta_i
     \end{equation}
@@ -563,7 +516,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
         \theta^{O}_{i} = \theta_{i} + \zeta_i
     \end{equation}
     \begin{wideitemize}
-        \item Where $\theta_{i} \equiv b_{O}(\theta^{C}_{i} - \theta^{O}_{i})$
         \item Equation (\ref{eq:E2_theta2.C}) relates the productivity of a household in cooperative sales $\theta^{C}_{i}$ to:
         \begin{itemize}
             \item household’s comparative advantage in cooperative sales $\theta_{i}$
@@ -573,33 +525,9 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
     \end{wideitemize}
 \end{frame}
 
-\begin{frame}{Essay 2: Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage}
-    \begin{wideitemize}
-        \item Cobb-Douglas functions after replacing $u^{C}_{it}$ and $u^{O}_{it}$ with their decompositions:
-
-    \begin{equation} \label{eq:E2_y.C}
-    y^{C}_{it} = \beta^{C}_{t} + X^{\prime}_{it}\gamma^{C}_{j} + (\phi + 1)\theta_{i} + \zeta_i + \varepsilon^{C}_{it}
-    \end{equation}
-    \begin{equation} \label{eq:E2_y.O}
-    y^{O}_{it} = \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + \theta_{i} + \zeta_i + \varepsilon^{O}_{it}
-    \end{equation}
-    
-        \item Using a generalized yield equation of the form $y_{it} = h_{it}y^{C}_{it} + (1-h_{it})y^{O}_{it}$ and substituting in equations (\ref{eq:E2_y.C}) and (\ref{eq:E2_y.O}), I can define my empirical specification as
-
-\begin{equation} \label{eq:E2_spec}
-    \begin{split}
-    y_{it} = & \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + (\beta^{C}_{t} - \beta^{O}_{t})h_{it} +  X^{\prime}_{it}(\gamma^{C}_{j} - \gamma^{O}_{j})h_{it} \\
-    & + \theta_{i} + \phi\theta_{i}h_{it} + \zeta_i + \varepsilon_{it}
-    \end{split}
-\end{equation}
-
-\end{wideitemize}
-\end{frame}
-
 
 \begin{frame}{Essay 2: Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage}
 
-\addtocounter{equation}{-1}
 \begin{equation} \label{eq:E2_spec}
     \begin{split}
     y_{it} = & \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + (\beta^{C}_{t} - \beta^{O}_{t})h_{it} +  X^{\prime}_{it}(\gamma^{C}_{j} - \gamma^{O}_{j})h_{it} \\
@@ -637,15 +565,6 @@ around the world (Aker et al., 2016).
         \item Previous literature has shown that access to mobile phones and mobile phone-based interventions can positively affect smallholder agricultural producers (Cole and Fernando, 2012; Curtois and
         Subervie, 2014; Jensen, 2007; Nakasone, 2011)
         \item Little is known about the effects of introducing mobile phone-based applications designed to solve market problems and increase economic activity.
-    \end{wideitemize}
-\end{frame}
-
-\begin{frame}{Essay 3: The Impact of a Smartphone Marketing Application on Smallholder Livestock Producers in Nepal}
-
-    \begin{wideitemize}
-        \item Prior research has been limited by low rates of smartphone ownership in the developing world (World Bank, 2016).
-        \item Smartphone ownership in the developing world grew from 18\% in 2013 to 47\% by 2018 (Pew Research Center, 2018)
-        \item As technology increasingly reaches the world’s poor, can mobile phone-based applications be harnessed to facilitate economic activity and increase the incomes of smallholder agricultural producers?
     \end{wideitemize}
 \end{frame}
 
@@ -695,39 +614,6 @@ around the world (Aker et al., 2016).
     \includegraphics[width=5.7cm]{vcc3.png}
   \end{minipage}
 \end{figure}
-\end{frame}
-
-\begin{frame}
-%\vspace{-.45cm}
-\setlength{\tabcolsep}{15pt}
-\begin{table}[H]
-\caption{Minimum Detectable Effects}
-\label{table:MDE}
-\centering
-\scalebox{.7}{
-\begin{tabular}{lp{7cm}cc}
-\hline
-Category & Variable & MDE & Standard Deviations \\ \midrule\\[-.9em]
-\multirow{2}{*}{Communication}
-  & Received sale information (0/1) & 0.1356 & \tikzmarkin<2>[hl]{j}0.2992 \\
-  & Transparency discrepancy index (continuous) & 0.3894 & 0.3722 \\ \\
-\multirow{2}{*}{Goat Sales}
-  & Household goats sold through cooperative (count) & 0.1707 & 0.2270 \\
-  & Household goats sold (count) & 0.2338 & 0.1482 \\ \\
-\multirow{2}{*}{Prices Received}  
-  & Household revenue per goat sold (USD) & 7.1224 & 0.1429 \\
-  & Household revenue per cooperative goat sold (USD) & 6.6429 & 0.2277 \\ \\
-\multirow{3}{*}{Net Goat Income}
-  & Household revenue per goat sold (USD) & 7.1224 & 0.1429 \\
-  & Household goats sold (count) & 0.2338 & 0.1482 \\
-  & Household net goat income (USD) & 20.4098 & 0.1470 \\ \\
-\multirow{3}{*}{Planning \& Expectations}
-  & Planning time horizon (years) & 0.5675 & 0.5778 \\
-  & Expected goats sold (count) & 170.6262 & 0.4744 \\
-  & Expected revenue (USD) & 1,208.6133 & 0.5656\tikzmarkend{j} \\
-\hline \\ \\ 
-\end{tabular}}
-\end{table}
 \end{frame}
 
 \begin{frame}{Essay 3: The Impact of a Smartphone Marketing Application on Smallholder Livestock Producers in Nepal}
