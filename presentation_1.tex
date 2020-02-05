@@ -181,7 +181,7 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 
 \textbf{Research Question:} \vspace{.5cm}
     \begin{wideitemize}
-        \item What factors influence the success and failure of agricultural cooperatives and how can researchers, policymakers and NGOs promote thriving producer organizations? \vspace{.25cm}
+        \item Which factors influence the success and failure of agricultural cooperatives and how can researchers, policymakers and NGOs promote thriving producer organizations? \vspace{.25cm}
             \begin{enumerate}
                 \item Decompose the cooperative performance gap between the most and least inclusive cooperatives. \vspace{.25cm}
                 \item Analyze the role that comparative advantage plays in cooperative participation decisions. \vspace{.25cm}
@@ -308,10 +308,10 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
         \item Most and least inclusive cooperatives likely have different $\beta$'s (i.e. ability to translate characteristics into performance). 
         \item Using the group-specific parameters, the difference between average outcomes for the most and least inclusive cooperatives is written as: \vspace{.25cm}
             \begin{equation} \label{eq:E1_2}
-                \overline{Y}_{h} - \overline{Y}_{\ell} =  \beta_{h}\overline{\mathbf{X}}_{h} - \beta_{\ell}\overline{\mathbf{X}}_{\ell}
+                \overline{Y}_{\ell} - \overline{Y}_{m} =  \beta_{\ell}\overline{\mathbf{X}}_{\ell} - \beta_{m}\overline{\mathbf{X}}_{m}
             \end{equation}  
             \begin{itemize}
-                \item $h$: most inclusive cooperatives
+                \item $m$: most inclusive cooperatives
                 \item $\ell$: least inclusive cooperatives 
             \end{itemize}
     \end{wideitemize}
@@ -319,17 +319,17 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 
 \begin{frame}{Essay 1: Investigating the Inclusive-Performance Tradeoff in \\ \hspace{1.7cm} Agricultural Cooperatives}
     \begin{wideitemize}
-        \item Rearranging this equation by adding and subtracting $\beta_{\ell}\overline{X}_{h}$ on both sides gives: \vspace{.25cm}
+        \item Rearranging this equation by adding and subtracting $\beta_{\ell}\overline{X}_{m}$ on both sides gives: \vspace{.25cm}
             \begin{subequations}
                 \begin{align}
-                \overline{Y}&_{h} - \overline{Y}_{\ell} \label{eq:E1_3a} \\
-                &= \beta_{\ell}[\overline{\mathbf{X}}_{h} - \overline{\mathbf{X}}_{\ell}] \label{eq:E1_3b} \\
-                &+ \overline{\mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}] \label{eq:E1_3c}
+                \overline{Y}&_{\ell} - \overline{Y}_{m} \label{eq:E1_3a} \\
+                &= \beta_{m}[\overline{\mathbf{X}}_{\ell} - \overline{\mathbf{X}}_{m}] \label{eq:E1_3b} \\
+                &+ \overline{\mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}] \label{eq:E1_3c}
                 \end{align}
             \end{subequations}  
         \item (\ref{eq:E1_3b}) is the explained component \vspace{.25cm}
             \begin{wideitemize}
-                \item Difference between the average outcomes that producers in the least inclusive cooperatives actually receive, and what they could receive if their characteristics matched those of producers in the most inclusive cooperatives.
+                \item Difference between the average outcomes that producers in the most inclusive cooperatives actually receive, and what they could receive if their characteristics matched those of producers in the least inclusive cooperatives.
             \end{wideitemize}
     \end{wideitemize}    
 \end{frame}
@@ -338,9 +338,9 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
         \addtocounter{equation}{-1}
         \begin{subequations}
             \begin{align}
-                \overline{Y}&_{h} - \overline{Y}_{\ell} \label{eq:E1_3a} \\
-                &= \beta_{\ell}[\overline{\mathbf{X}}_{h} - \overline{\mathbf{X}}_{\ell}] \label{eq:E1_3b} \\
-                &+ \overline{\mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}] \label{eq:E1_3c}
+                \overline{Y}&_{\ell} - \overline{Y}_{m} \label{eq:E1_3a} \\
+                &= \beta_{m}[\overline{\mathbf{X}}_{\ell} - \overline{\mathbf{X}}_{m}] \label{eq:E1_3b} \\
+                &+ \overline{\mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}] \label{eq:E1_3c}
             \end{align}
         \end{subequations}  
     \begin{wideitemize}
@@ -391,13 +391,13 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
         \noalign{\smallskip} \hline \noalign{\smallskip}
         Gap Portion & Equation \\
         \noalign{\smallskip} \hline \noalign{\smallskip}
-        Full & $\overline{Y}_{h} - \overline{Y}_{\ell}$ \\ \\
-        Individual (All) & $\beta_{\ell}[\overline{\mathbf{X}}_{h} - \overline{\mathbf{X}}_{\ell}] + \overline{\mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}]$ \\
-        Individual (Characteristics) & $\beta_{\ell}[\overline{\mathbf{X}}_{h} - \overline{\mathbf{X}}_{\ell}]$ \\
-        Individual (Returns) & $\overline{\mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}]$ \\ \\
-        Institutional (All) & $\gamma_{\ell}[\overline{\mathbf{Z}}_{h} - \overline{\mathbf{Z}}_{\ell}] + \overline{\mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}]$ \\
-        Institutional (Characteristics) & $\gamma_{\ell}[\overline{\mathbf{Z}}_{h} - \overline{\mathbf{Z}}_{\ell}]$ \\
-        Institutional (Returns) & $\overline{\mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}]$ \\
+        Full & $\overline{Y}_{\ell} - \overline{Y}_{m}$ \\ \\
+        Individual (All) & $\beta_{m}[\overline{\mathbf{X}}_{\ell} - \overline{\mathbf{X}}_{m}] + \overline{\mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}]$ \\
+        Individual (Characteristics) & $\beta_{m}[\overline{\mathbf{X}}_{\ell} - \overline{\mathbf{X}}_{m}]$ \\
+        Individual (Returns) & $\overline{\mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}]$ \\ \\
+        Institutional (All) & $\gamma_{m}[\overline{\mathbf{Z}}_{\ell} - \overline{\mathbf{Z}}_{m}] + \overline{\mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}]$ \\
+        Institutional (Characteristics) & $\gamma_{m}[\overline{\mathbf{Z}}_{\ell} - \overline{\mathbf{Z}}_{m}]$ \\
+        Institutional (Returns) & $\overline{\mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}]$ \\
         \hline
         \end{tabular}}
         \end{table} 
@@ -428,16 +428,16 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
         \noalign{\smallskip} \hline \noalign{\smallskip}
         Gap Portion & Equation \\
         \noalign{\smallskip} \hline \noalign{\smallskip}
-        Full & $\overline{\Delta Y}_{h} - \overline{\Delta Y}_{\ell}$ \\ \\
-        Individual (All) & $\beta_{\ell}[\overline{\Delta \mathbf{X}}_{h} - \overline{\Delta \mathbf{X}}_{\ell}] + \overline{\Delta \mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}]$ \\
-        & $+ \delta_{\ell}[\overline{\mathbf{h}}_{h} - \overline{\mathbf{h}}_{\ell}] + \overline{\mathbf{h}}_{h}[\delta_{h} - \delta_{\ell}]$ \\ \\
-        Individual (Characteristics) & $\beta_{\ell}[\overline{\Delta \mathbf{X}}_{h} - \overline{\Delta \mathbf{X}}_{\ell}] + \delta_{\ell}[\overline{\mathbf{h}}_{h} - \overline{\mathbf{h}}_{\ell}]$ \\
-        Individual (Returns) & $\overline{\Delta \mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}] + \overline{\mathbf{h}}_{h}[\delta_{h} - \delta_{\ell}]$ \\ \\
+        Full & $\overline{\Delta Y}_{\ell} - \overline{\Delta Y}_{m}$ \\ \\
+        Individual (All) & $\beta_{m}[\overline{\Delta \mathbf{X}}_{\ell} - \overline{\Delta \mathbf{X}}_{m}] + \overline{\Delta \mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}]$ \\
+        & $+ \delta_{m}[\overline{\mathbf{h}}_{\ell} - \overline{\mathbf{h}}_{m}] + \overline{\mathbf{h}}_{\ell}[\delta_{\ell} - \delta_{m}]$ \\ \\
+        Individual (Characteristics) & $\beta_{m}[\overline{\Delta \mathbf{X}}_{\ell} - \overline{\Delta \mathbf{X}}_{m}] + \delta_{m}[\overline{\mathbf{h}}_{\ell} - \overline{\mathbf{h}}_{m}]$ \\
+        Individual (Returns) & $\overline{\Delta \mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}] + \overline{\mathbf{h}}_{\ell}[\delta_{\ell} - \delta_{m}]$ \\ \\
         
-        Institutional (All) & $\gamma_{\ell}[\overline{\Delta \mathbf{Z}}_{h} - \overline{\Delta \mathbf{Z}}_{\ell}] + \overline{\Delta \mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}]$ \\
-        & + $\theta_{\ell}[\overline{\mathbf{c}}_{h} - \overline{\mathbf{c}}_{\ell}] + \overline{\mathbf{c}}_{h}[\theta_{h} - \theta_{\ell}]$ \\ \\
-        Institutional (Characteristics) & $\gamma_{\ell}[\overline{\Delta \mathbf{Z}}_{h} - \overline{\Delta \mathbf{Z}}_{\ell}] + \theta_{\ell}[\overline{\mathbf{c}}_{h} - \overline{\mathbf{c}}_{\ell}]$ \\
-        Institutional (Returns) & $\overline{\Delta \mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}] + \overline{\mathbf{c}}_{h}[\theta_{h} - \theta_{\ell}]$\\
+        Institutional (All) & $\gamma_{m}[\overline{\Delta \mathbf{Z}}_{\ell} - \overline{\Delta \mathbf{Z}}_{m}] + \overline{\Delta \mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}]$ \\
+        & + $\theta_{m}[\overline{\mathbf{c}}_{\ell} - \overline{\mathbf{c}}_{m}] + \overline{\mathbf{c}}_{\ell}[\theta_{\ell} - \theta_{m}]$ \\ \\
+        Institutional (Characteristics) & $\gamma_{m}[\overline{\Delta \mathbf{Z}}_{\ell} - \overline{\Delta \mathbf{Z}}_{m}] + \theta_{m}[\overline{\mathbf{c}}_{\ell} - \overline{\mathbf{c}}_{m}]$ \\
+        Institutional (Returns) & $\overline{\Delta \mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}] + \overline{\mathbf{c}}_{\ell}[\theta_{\ell} - \theta_{m}]$\\
         \hline
         \end{tabular}}
         \end{table}   
