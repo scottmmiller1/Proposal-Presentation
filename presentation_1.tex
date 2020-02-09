@@ -324,7 +324,7 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 
 \begin{frame}{Essay 1: Investigating the Inclusive-Performance Tradeoff in \\ \hspace{1.7cm} Agricultural Cooperatives}
     \begin{wideitemize}
-        \item Also important to disentangle the role that institutional and individual characteristics play in explaining this performance gap. 
+        \item Also important to understand the role that institutional and individual characteristics play in explaining this performance gap. 
         \item I expand the above framework to include two separate vectors of attributes: one institutional and one individual. 
         \item I propose to estimate two separate specifications: \vspace{.25cm}
             \begin{enumerate}
@@ -340,79 +340,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
     \end{wideitemize}    
 \end{frame}
 
-\begin{frame}{Essay 1: Investigating the Inclusive-Performance Tradeoff in \\ \hspace{1.7cm} Agricultural Cooperatives}
-\textbf{Pooled Cross Section} \vspace{1cm}
-        \begin{equation} \label{eq:E1_4}
-            Y_{ij} = \mathbf{X}_i^{\prime}\beta + \mathbf{Z}_j^{\prime}\gamma + \varepsilon_{ij}
-        \end{equation}  
-    \begin{wideitemize}    
-        \item $Y_{ij}$ - outcome of interest for individual $i$ who is a member of cooperative $j$
-        \item $\mathbf{X}_i$ - vector of individual attributes
-        \item $\mathbf{Z}_j$ is a vector of institutional attributes
-    \end{wideitemize}    
-\end{frame}
-
-\begin{frame}
-        \begin{table}[H]
-        \caption{Decomposition Components (Cross-Section)}
-        \label{table:E1_1}
-        \centering
-        \scalebox{1}{
-        \begin{tabular}{lc}
-        \noalign{\smallskip} \hline \noalign{\smallskip}
-        Gap Portion & Equation \\
-        \noalign{\smallskip} \hline \noalign{\smallskip}
-        Full & $\overline{Y}_{\ell} - \overline{Y}_{m}$ \\ \\
-        Individual (All) & $\beta_{m}[\overline{\mathbf{X}}_{\ell} - \overline{\mathbf{X}}_{m}] + \overline{\mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}]$ \\
-        Individual (Characteristics) & $\beta_{m}[\overline{\mathbf{X}}_{\ell} - \overline{\mathbf{X}}_{m}]$ \\
-        Individual (Returns) & $\overline{\mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}]$ \\ \\
-        Institutional (All) & $\gamma_{m}[\overline{\mathbf{Z}}_{\ell} - \overline{\mathbf{Z}}_{m}] + \overline{\mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}]$ \\
-        Institutional (Characteristics) & $\gamma_{m}[\overline{\mathbf{Z}}_{\ell} - \overline{\mathbf{Z}}_{m}]$ \\
-        Institutional (Returns) & $\overline{\mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}]$ \\
-        \hline
-        \end{tabular}}
-        \end{table} 
-\end{frame}
-
-\begin{frame}{Essay 1: Investigating the Inclusive-Performance Tradeoff in \\ \hspace{1.7cm} Agricultural Cooperatives}
-\textbf{First-Difference Panel} \vspace{.5cm}
-            \begin{equation} \label{eq:E1_7}
-                \Delta Y_{ij} = \Delta \mathbf{X}_i^{\prime}\beta + \Delta \mathbf{Z}_j^{\prime}\gamma + \mathbf{h}_i^{\prime}\delta + \mathbf{c}_i^{\prime}\theta + \Delta \varepsilon_{ij}
-            \end{equation}  
-    \begin{wideitemize}    
-        \item $\Delta Y_{ij}$ $(= Y_{ij,t=1} - Y_{ij,t=0})$ - outcome of interest for individual $i$ in cooperative $j$
-        \item $\Delta \mathbf{X}_i$ - vector of time-varying individual attributes
-        \item $\Delta \mathbf{Z}_j$ - vector of time-varying institutional attributes
-        \item $\mathbf{h}_i$ - vector time-invariant individual attributes
-        \item $\mathbf{c}_i$ - vector time-invariant intitutional attributes
-    \end{wideitemize}    
-\end{frame}
-
-\begin{frame}
-        \begin{table}[H]
-        \caption{Decomposition Components (Panel)}
-        \label{table:E1_2}
-        \centering
-        \scalebox{1}{
-        %\hspace{1.43in}
-        \begin{tabular}{lc}
-        \noalign{\smallskip} \hline \noalign{\smallskip}
-        Gap Portion & Equation \\
-        \noalign{\smallskip} \hline \noalign{\smallskip}
-        Full & $\overline{\Delta Y}_{\ell} - \overline{\Delta Y}_{m}$ \\ \\
-        Individual (All) & $\beta_{m}[\overline{\Delta \mathbf{X}}_{\ell} - \overline{\Delta \mathbf{X}}_{m}] + \overline{\Delta \mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}]$ \\
-        & $+ \delta_{m}[\overline{\mathbf{h}}_{\ell} - \overline{\mathbf{h}}_{m}] + \overline{\mathbf{h}}_{\ell}[\delta_{\ell} - \delta_{m}]$ \\ \\
-        Individual (Characteristics) & $\beta_{m}[\overline{\Delta \mathbf{X}}_{\ell} - \overline{\Delta \mathbf{X}}_{m}] + \delta_{m}[\overline{\mathbf{h}}_{\ell} - \overline{\mathbf{h}}_{m}]$ \\
-        Individual (Returns) & $\overline{\Delta \mathbf{X}}_{\ell}[\beta_{\ell} - \beta_{m}] + \overline{\mathbf{h}}_{\ell}[\delta_{\ell} - \delta_{m}]$ \\ \\
-        
-        Institutional (All) & $\gamma_{m}[\overline{\Delta \mathbf{Z}}_{\ell} - \overline{\Delta \mathbf{Z}}_{m}] + \overline{\Delta \mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}]$ \\
-        & + $\theta_{m}[\overline{\mathbf{c}}_{\ell} - \overline{\mathbf{c}}_{m}] + \overline{\mathbf{c}}_{\ell}[\theta_{\ell} - \theta_{m}]$ \\ \\
-        Institutional (Characteristics) & $\gamma_{m}[\overline{\Delta \mathbf{Z}}_{\ell} - \overline{\Delta \mathbf{Z}}_{m}] + \theta_{m}[\overline{\mathbf{c}}_{\ell} - \overline{\mathbf{c}}_{m}]$ \\
-        Institutional (Returns) & $\overline{\Delta \mathbf{Z}}_{\ell}[\gamma_{\ell} - \gamma_{m}] + \overline{\mathbf{c}}_{\ell}[\theta_{\ell} - \theta_{m}]$\\
-        \hline
-        \end{tabular}}
-        \end{table}   
-\end{frame}
 
 % -------------------------------------------------
 \section{Essay 2: ``Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage.''}
@@ -625,7 +552,7 @@ around the world (Aker et al., 2016).
 y_{ijt} = \rho y_{ijt-1} + \beta_{0} + \beta_{1} T_{j} + \gamma \textbf{S}_{ij} + \varepsilon_{ijt}
 \end{equation}
 \begin{equation} \label{eq:ITT2}
-y_{j} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \gamma \textbf{S}_{j} + \varepsilon_{jt}
+y_{jt} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \gamma \textbf{S}_{j} + \varepsilon_{jt}
 \end{equation}
 
     \vspace{.25cm}
@@ -648,7 +575,7 @@ y_{j} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \gamma \textbf{S}_{j} + \v
 y_{ijt} = \rho y_{ijt-1} + \beta_{0} + \beta_{1} T_{j} + \beta_{2} (T_{j} \times z_{ijt-1}) + \beta_3 z_{ijt-1} + \gamma \textbf{S}_{ij} + \varepsilon_{ijt}
 \end{equation}
 \begin{equation} \label{eq:HTE2}
-y_{j} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \beta_{2} (T_{j} \times z_{jt-1}) + \beta_3 z_{jt-1} + \gamma \textbf{S}_{j} + \varepsilon_{jt}
+y_{jt} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \beta_{2} (T_{j} \times z_{jt-1}) + \beta_3 z_{jt-1} + \gamma \textbf{S}_{j} + \varepsilon_{jt}
 \end{equation}
 
     \vspace{.25cm}
