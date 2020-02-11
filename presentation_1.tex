@@ -62,8 +62,8 @@
 %\usecolortheme{whale}
 %\usecolortheme{wolverine}
 
-%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
-\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 
 \setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
@@ -115,7 +115,7 @@ An Analysis of Smallholder Livestock Cooperatives in Nepal \\
 Food and Resource Economics Department \\ University of Florida\\ % Your institution for the title page
 \medskip
 }
-%\date{} % Date, can be changed to a custom date
+\date{February 12, 2020} % Date, can be changed to a custom date
 \newenvironment{wideitemize}{\itemize\addtolength{\itemsep}{10pt}}{\enditemize}
 
 \begin{document}
@@ -197,7 +197,7 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
     \begin{wideitemize}
         \item Female smallholder goat producers in rural Nepal. All are members of cooperatives. 
         \item In Nepal, 68\% of the population depends on agriculture for their livelihoods (International Labor Organization, 2016). 
-        \item Nearly every rural household owns a least a few goats for production and/or consumption (Upreti, 2009). 
+        \item Nearly every rural household owns a least at few goats, which are mainly sold for meat consumption. (Upreti, 2009). 
         \item A recent rise in demand for goat meat \vspace{.25cm}
         \begin{wideitemize}
             \item Domestic production has been unable to keep up with rising demand, leading to higher imports from India and Tibet (Heifer International Nepal, 2012).
@@ -221,8 +221,21 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 
 \begin{frame}{Background \& Data}
     \begin{center}
-        \includegraphics[width=.9\textwidth]{StudyMap.png}
+        \includegraphics[width=.9\textwidth,trim=4 4 4 4,clip]{StudyMap.png}
     \end{center}
+\end{frame}
+
+\begin{frame}
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+\includegraphics[width=7.7cm,height=4.2cm]{travel1.jpg}\\
+\includegraphics[width=7.7cm,height=4.2cm]{travel3.jpg}
+\column{.5\textwidth} 
+\centering
+\includegraphics[width=7.7cm,height=4.2cm]{travel2.jpg}\\
+\includegraphics[width=7.7cm,height=4.2cm]{travel4.jpg}
+\end{columns}
 \end{frame}
 
 
@@ -256,17 +269,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
                 \item the portion that is explained by differences in observable characteristics \vspace{.25cm}
                 \item the portion that is explained by the returns to those characteristics
             \end{itemize}
-    \end{wideitemize}
-\end{frame}
-
-\begin{frame}{Essay 1: Investigating the Inclusive-Performance Tradeoff in \\ \hspace{1.7cm} Agricultural Cooperatives}
-    \begin{wideitemize}
-        \item Decomposition methods closely follow the program evaluation literature (Fortin et al., 2011). 
-        \item `Explained' portion of the gap is selection bias (differences in characteristics between two groups).
-        \item ‘Unexplained’ portion of the gap is analogous to a treatment effect (Fortin et al., 2011). \vspace{.25cm}
-            \begin{wideitemize}
-                \item Not causal estimates
-            \end{wideitemize}
     \end{wideitemize}
 \end{frame}
 
@@ -383,7 +385,7 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
                 \item Are these returns heterogeneous? \vspace{.25cm}
                 \item If so, does this heterogeneity explain why a small number of producers sell through the cooperative, and others side-sell? 
             \end{enumerate}
-        \item I estimate a correlated random coefficient (CRC) model to analyze the distribution of net returns to cooperative sales and discuss the importance of comparative advantage in explaining the decision to do so.     
+        \item I estimate a correlated random coefficient (CRC) model to analyze the distribution of net returns to selling through the cooperative and discuss the importance of comparative advantage in explaining the decision to do so.     
     \end{wideitemize}
 \end{frame}
 
@@ -394,11 +396,6 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
             \begin{wideitemize}
                 \item Explains why, despite high average returns to hybrid maize seed in Kenya, adoption of this technology was persistently low.
             \end{wideitemize}
-        \item Michler et al., 2018. ``Money Matters: The Role of Yields and Profits in Agricultural Technology Adoption.''
- \vspace{.25cm}
-            \begin{wideitemize}
-                \item Conduct an extension test of Suri (2011) in the case of improved chickpea varieties in Ethiopia.
-            \end{wideitemize}        
         \item Treat the decision to sell through the cooperative as a technology that producers are able to adopt.
     \end{wideitemize}
 \end{frame}
@@ -436,6 +433,8 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
 \end{frame}
 
 \begin{frame}{Essay 2: Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage}
+    \begin{wideitemize}
+    \end{wideitemize}
     \begin{equation} \label{eq:E2_theta2.C}
         \theta^{C}_{i} = (\phi + 1)\theta_{i} + \zeta_i
     \end{equation}
@@ -445,35 +444,35 @@ Food and Resource Economics Department \\ University of Florida\\ % Your institu
     \begin{wideitemize}
         \item Equation (\ref{eq:E2_theta2.C}) relates the productivity of a household in cooperative sales $\theta^{C}_{i}$ to:
         \begin{itemize}
-            \item household’s comparative advantage in cooperative sales $\theta_{i}$
-            \item household’s absolute advantage in goat production $\zeta_i$
+            \item comparative advantage in cooperative sales $\theta_{i}$
+            \item absolute advantage in goat production $\zeta_i$
         \end{itemize} 
         \item $\phi$ is a measure of how important comparative advantage is for cooperative sales (Suri, 2011).
     \end{wideitemize}
 \end{frame}
 
-
 \begin{frame}{Essay 2: Side-Selling and the Returns to Cooperative Participation: The Role of Comparative Advantage}
+    \begin{wideitemize}
+        \item Cobb-Douglas functions after replacing $u^{C}_{it}$ and $u^{O}_{it}$ with their decompositions:
 
-\begin{equation} \label{eq:E2_spec}
-    \begin{split}
-    y_{it} = & \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + (\beta^{C}_{t} - \beta^{O}_{t})h_{it} +  X^{\prime}_{it}(\gamma^{C}_{j} - \gamma^{O}_{j})h_{it} \\
-    & + \theta_{i} + \phi\theta_{i}h_{it} + \zeta_i + \varepsilon_{it}
-    \end{split}
-\end{equation}
+    \begin{equation} \label{eq:E2_y.C}
+    y^{C}_{it} = \beta^{C}_{t} + X^{\prime}_{it}\gamma^{C}_{j} + (\phi + 1)\theta_{i} + \zeta_i + \varepsilon^{C}_{it}
+    \end{equation}
+    \begin{equation} \label{eq:E2_y.O}
+    y^{O}_{it} = \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + \theta_{i} + \zeta_i + \varepsilon^{O}_{it}
+    \end{equation}
+    
+        \item Estimate the distribution of comparative advantage in cooperatives sales, $\theta_{i}$
+        \item Structural parameter, $\phi$, which describes the sorting of households into cooperative and outside sales (Suri, 2011).
 
-\begin{wideitemize}
-    \item $h_{it}$ is the decision by household $i$ at time $t$ to sell through the cooperative
-        \begin{itemize}
-            \item $\varepsilon_{it} \equiv h_{it}\varepsilon^{C}_{it} + (1-h_{it})\varepsilon^{O}_{it}$
-        \end{itemize}
-    \item Coefficient $\phi\theta_{i}$ on the adoption term depends on the unobserved $\theta_{i}$ (comparative advantage) and is likely to be correlated with the adoption decision. 
-    \item If $\phi = 0$, this would be equivalent to a household fixed effects model (Suri, 2011)
-        \begin{itemize}
-            \item Fixed effects approach assumes that the (endogenous) adoption decision is independent of a household’s comparative advantage.
-        \end{itemize}
+        
+
 \end{wideitemize}
 \end{frame}
+
+
+
+
 
 % -------------------------------------------------
 \section{Essay 3: ``The Impact of a Smartphone Marketing Application on Smallholder Livestock Producers in Nepal.''}
@@ -512,7 +511,7 @@ around the world (Aker et al., 2016).
     \begin{wideitemize}
         \item Cluster-randomized control trial \vspace{.25cm}
         \begin{itemize}
-            \item treatment is assigned at the cooperative level.
+            \item Treatment is assigned at the cooperative level.
         \end{itemize}
         \item Members in the treatment group receive access to the VCC app as well as training on how to use it.
         \item At the completion of the study:
@@ -560,7 +559,7 @@ y_{jt} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \gamma \textbf{S}_{j} + \
         \item $y_{ij}$: outcome of interest for household \textit{i} from cooperative \textit{j}. \item $\textbf{S}_{ij}$: indicator variables for the strata created via randomization. \item $T_{j}$: binary treatment indicator
         \item $\beta_{1}$: average intent-to-treat (ITT) effect
             \begin{itemize}
-                \item average impact of being given access to the VCC app as well as training on how to use it
+                \item Average impact of being given access to the VCC app as well as training on how to use it
             \end{itemize}
     \end{itemize}
 \end{wideitemize}
@@ -598,6 +597,205 @@ y_{jt} = \rho y_{jt-1} + \beta_{0} + \beta_{1} T_{j} + \beta_{2} (T_{j} \times z
 \begin{frame}
 \Huge{\centerline{Questions?}}
 \end{frame}
+
+\begin{frame}{Appendix A: Essay 1 Additional Information}
+\textbf{Pooled Cross Section} \vspace{1cm}
+        \begin{equation} \label{eq:E1_4}
+            Y_{ij} = \mathbf{X}_i^{\prime}\beta + \mathbf{Z}_j^{\prime}\gamma + \varepsilon_{ij}
+        \end{equation}  
+    \begin{wideitemize}    
+        \item $Y_{ij}$ - outcome of interest for individual $i$ who is a member of cooperative $j$
+        \item $\mathbf{X}_i$ - vector of individual attributes
+        \item $\mathbf{Z}_j$ is a vector of institutional attributes
+    \end{wideitemize}    
+\end{frame}
+
+\begin{frame}
+        \begin{table}[H]
+        \caption{Decomposition Components (Cross-Section)}
+        \label{table:E1_1}
+        \centering
+        \scalebox{1}{
+        \begin{tabular}{lc}
+        \noalign{\smallskip} \hline \noalign{\smallskip}
+        Gap Portion & Equation \\
+        \noalign{\smallskip} \hline \noalign{\smallskip}
+        Full & $\overline{Y}_{h} - \overline{Y}_{\ell}$ \\ \\
+        Individual (All) & $\beta_{\ell}[\overline{\mathbf{X}}_{h} - \overline{\mathbf{X}}_{\ell}] + \overline{\mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}]$ \\
+        Individual (Characteristics) & $\beta_{\ell}[\overline{\mathbf{X}}_{h} - \overline{\mathbf{X}}_{\ell}]$ \\
+        Individual (Returns) & $\overline{\mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}]$ \\ \\
+        Institutional (All) & $\gamma_{\ell}[\overline{\mathbf{Z}}_{h} - \overline{\mathbf{Z}}_{\ell}] + \overline{\mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}]$ \\
+        Institutional (Characteristics) & $\gamma_{\ell}[\overline{\mathbf{Z}}_{h} - \overline{\mathbf{Z}}_{\ell}]$ \\
+        Institutional (Returns) & $\overline{\mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}]$ \\
+        \hline
+        \end{tabular}}
+        \end{table} 
+\end{frame}
+
+\begin{frame}{Appendix A: Essay 1 Additional Information}
+\textbf{First-Difference Panel} \vspace{.5cm}
+            \begin{equation} \label{eq:E1_7}
+                \Delta Y_{ij} = \Delta \mathbf{X}_i^{\prime}\beta + \Delta \mathbf{Z}_j^{\prime}\gamma + \mathbf{h}_i^{\prime}\delta + \mathbf{c}_i^{\prime}\theta + \Delta \varepsilon_{ij}
+            \end{equation}  
+    \begin{wideitemize}    
+        \item $\Delta Y_{ij}$ $(= Y_{ij,t=1} - Y_{ij,t=0})$ - outcome of interest for individual $i$ in cooperative $j$
+        \item $\Delta \mathbf{X}_i$ - vector of time-varying individual attributes
+        \item $\Delta \mathbf{Z}_j$ - vector of time-varying institutional attributes
+        \item $\mathbf{h}_i$ - vector time-invariant individual attributes
+        \item $\mathbf{c}_i$ - vector time-invariant intitutional attributes
+    \end{wideitemize}    
+\end{frame}
+
+\begin{frame}
+        \begin{table}[H]
+        \caption{Decomposition Components (Panel)}
+        \label{table:E1_2}
+        \centering
+        \scalebox{1}{
+        %\hspace{1.43in}
+        \begin{tabular}{lc}
+        \noalign{\smallskip} \hline \noalign{\smallskip}
+        Gap Portion & Equation \\
+        \noalign{\smallskip} \hline \noalign{\smallskip}
+        Full & $\overline{\Delta Y}_{h} - \overline{\Delta Y}_{\ell}$ \\ \\
+        Individual (All) & $\beta_{\ell}[\overline{\Delta \mathbf{X}}_{h} - \overline{\Delta \mathbf{X}}_{\ell}] + \overline{\Delta \mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}]$ \\
+        & $+ \delta_{\ell}[\overline{\mathbf{h}}_{h} - \overline{\mathbf{h}}_{\ell}] + \overline{\mathbf{h}}_{h}[\delta_{h} - \delta_{\ell}]$ \\ \\
+        Individual (Characteristics) & $\beta_{\ell}[\overline{\Delta \mathbf{X}}_{h} - \overline{\Delta \mathbf{X}}_{\ell}] + \delta_{\ell}[\overline{\mathbf{h}}_{h} - \overline{\mathbf{h}}_{\ell}]$ \\
+        Individual (Returns) & $\overline{\Delta \mathbf{X}}_{h}[\beta_{h} - \beta_{\ell}] + \overline{\mathbf{h}}_{h}[\delta_{h} - \delta_{\ell}]$ \\ \\
+
+        Institutional (All) & $\gamma_{\ell}[\overline{\Delta \mathbf{Z}}_{h} - \overline{\Delta \mathbf{Z}}_{\ell}] + \overline{\Delta \mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}]$ \\
+        & + $\theta_{\ell}[\overline{\mathbf{c}}_{h} - \overline{\mathbf{c}}_{\ell}] + \overline{\mathbf{c}}_{h}[\theta_{h} - \theta_{\ell}]$ \\ \\
+        Institutional (Characteristics) & $\gamma_{\ell}[\overline{\Delta \mathbf{Z}}_{h} - \overline{\Delta \mathbf{Z}}_{\ell}] + \theta_{\ell}[\overline{\mathbf{c}}_{h} - \overline{\mathbf{c}}_{\ell}]$ \\
+        Institutional (Returns) & $\overline{\Delta \mathbf{Z}}_{h}[\gamma_{h} - \gamma_{\ell}] + \overline{\mathbf{c}}_{h}[\theta_{h} - \theta_{\ell}]$\\
+        \hline
+        \end{tabular}}
+        \end{table}   
+\end{frame}
+
+
+\begin{frame}{Appendix B: Essay 2 Additional Information}
+    \begin{wideitemize}
+        \item Since $\theta^{C}_{i}$ and $\theta^{O}_{i}$ are unobserved, they can be decomposed into the following productivity effects (Lemieux, 1998) \vspace{.5cm}
+    \end{wideitemize}
+    \begin{equation} \label{eq:E2_theta.C}
+        \theta^{C}_{i} = b_{C}(\theta^{C}_{i} - \theta^{O}_{i}) + \zeta_{i}
+    \end{equation}
+    \begin{equation} \label{eq:E2_theta.O}
+        \theta^{O}_{i} = b_{O}(\theta^{C}_{i} - \theta^{O}_{i}) + \zeta_{i}
+    \end{equation}
+    \begin{wideitemize}
+        \item $\zeta_{i}$ is a household’s absolute advantage in agricultural production (Suri, 2011). 
+    \end{wideitemize}
+\end{frame}
+
+\begin{frame}{Appendix B: Essay 2 Additional Information}
+    \begin{wideitemize}
+        \item Define $\phi \equiv b_C / b_O - 1$ and rewrite equations (\ref{eq:E2_theta.C}) and (\ref{eq:E2_theta.O}) as \vspace{.5cm}
+    \end{wideitemize}
+    \begin{equation} \label{eq:E2_theta2.C}
+        \theta^{C}_{i} = (\phi + 1)\theta_{i} + \zeta_i
+    \end{equation}
+    \begin{equation} \label{eq:E2_theta2.O}
+        \theta^{O}_{i} = \theta_{i} + \zeta_i
+    \end{equation}
+    \begin{wideitemize}
+        \item Where $\theta_{i} \equiv b_{O}(\theta^{C}_{i} - \theta^{O}_{i})$
+        \item Equation (\ref{eq:E2_theta2.C}) relates the productivity of a household in cooperative sales $\theta^{C}_{i}$ to:
+        \begin{itemize}
+            \item household’s comparative advantage in cooperative sales $\theta_{i}$
+            \item household’s absolute advantage in goat production $\zeta_i$
+        \end{itemize} 
+        \item $\phi$ is a measure of how important comparative advantage is for cooperative sales (Suri, 2011).
+    \end{wideitemize}
+\end{frame}
+
+\begin{frame}{Appendix B: Essay 2 Additional Information}
+    \begin{wideitemize}
+        \item Cobb-Douglas functions after replacing $u^{C}_{it}$ and $u^{O}_{it}$ with their decompositions:
+
+    \begin{equation} \label{eq:E2_y.C}
+    y^{C}_{it} = \beta^{C}_{t} + X^{\prime}_{it}\gamma^{C}_{j} + (\phi + 1)\theta_{i} + \zeta_i + \varepsilon^{C}_{it}
+    \end{equation}
+    \begin{equation} \label{eq:E2_y.O}
+    y^{O}_{it} = \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + \theta_{i} + \zeta_i + \varepsilon^{O}_{it}
+    \end{equation}
+    
+        \item Using a generalized yield equation of the form $y_{it} = h_{it}y^{C}_{it} + (1-h_{it})y^{O}_{it}$ and substituting in equations (\ref{eq:E2_y.C}) and (\ref{eq:E2_y.O}), I can define my empirical specification as
+
+\begin{equation} \label{eq:E2_spec}
+    \begin{split}
+    y_{it} = & \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + (\beta^{C}_{t} - \beta^{O}_{t})h_{it} +  X^{\prime}_{it}(\gamma^{C}_{j} - \gamma^{O}_{j})h_{it} \\
+    & + \theta_{i} + \phi\theta_{i}h_{it} + \zeta_i + \varepsilon_{it}
+    \end{split}
+\end{equation}
+
+\end{wideitemize}
+\end{frame}
+
+
+\begin{frame}{Appendix B: Essay 2 Additional Information}
+
+\addtocounter{equation}{-1}
+\begin{equation} \label{eq:E2_spec}
+    \begin{split}
+    y_{it} = & \beta^{O}_{t} + X^{\prime}_{it}\gamma^{O}_{j} + (\beta^{C}_{t} - \beta^{O}_{t})h_{it} +  X^{\prime}_{it}(\gamma^{C}_{j} - \gamma^{O}_{j})h_{it} \\
+    & + \theta_{i} + \phi\theta_{i}h_{it} + \zeta_i + \varepsilon_{it}
+    \end{split}
+\end{equation}
+
+\begin{wideitemize}
+    \item $h_{it}$ is the decision by household $i$ at time $t$ to sell through the cooperative
+        \begin{itemize}
+            \item $\varepsilon_{it} \equiv h_{it}\varepsilon^{C}_{it} + (1-h_{it})\varepsilon^{O}_{it}$
+        \end{itemize}
+    \item Coefficient $\phi\theta_{i}$ on the adoption term depends on the unobserved $\theta_{i}$ (comparative advantage) and is likely to be correlated with the adoption decision. 
+    \item If $\phi = 0$, this would be equivalent to a household fixed effects model (Suri, 2011)
+        \begin{itemize}
+            \item Fixed effects approach assumes that the (endogenous) adoption decision is independent of a household’s comparative advantage.
+        \end{itemize}
+\end{wideitemize}
+\end{frame}
+
+\begin{frame}{Appendix C: Essay 3 Additional Information}
+%\vspace{-.45cm}
+\setlength{\tabcolsep}{15pt}
+\begin{table}[H]
+\caption{Minimum Detectable Effects}
+\label{table:MDE}
+\centering
+\scalebox{.6}{
+\begin{tabular}{lp{7cm}cc}
+\hline
+Category & Variable & MDE & Standard Deviations \\ \midrule\\[-.9em]
+\multirow{2}{*}{Communication}
+  & Received sale information (0/1) & 0.1356 & 0.2992 \\
+  & Transparency discrepancy index (continuous) & 0.3894 & 0.3722 \\ \\
+\multirow{2}{*}{Goat Sales}
+  & Household goats sold through cooperative (count) & 0.1707 & 0.2270 \\
+  & Household goats sold (count) & 0.2338 & 0.1482 \\ \\
+\multirow{2}{*}{Prices Received}  
+  & Household revenue per goat sold (USD) & 7.1224 & 0.1429 \\
+  & Household revenue per cooperative goat sold (USD) & 6.6429 & 0.2277 \\ \\
+\multirow{3}{*}{Net Goat Income}
+  & Household revenue per goat sold (USD) & 7.1224 & 0.1429 \\
+  & Household goats sold (count) & 0.2338 & 0.1482 \\
+  & Household net goat income (USD) & 20.4098 & 0.1470 \\ \\
+\multirow{3}{*}{Planning \& Expectations}
+  & Planning time horizon (years) & 0.5675 & 0.5778 \\
+  & Expected goats sold (count) & 170.6262 & 0.4744 \\
+  & Expected revenue (USD) & 1,208.6133 & 0.5656 \\
+\hline \\ \\ 
+\end{tabular}}
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        \includegraphics[width=.85\textwidth,trim=4 4 4 4,clip]{VCCdiagram.png}
+    \end{center}
+\end{frame}
+
+
 
 \end{document}
 
